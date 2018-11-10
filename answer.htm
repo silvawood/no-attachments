@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Answer</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<script>
+localStorage.setItem('localDescription', location.search.substr(1));
+if (window.mozRTCPeerConnection == undefined) {
+	location.search = '';
+	close();
+	}
+</script>
+</body>
+</html>

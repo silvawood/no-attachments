@@ -1,0 +1,11 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+}
+div {
+	vertical-align: middle;
+	line-height: 100vh;
+	text-align: center;
+}
+span { font-size: 0.8em; margin-right: 3em }
+progress, input { display: none }
+a:hover { color: gray }
